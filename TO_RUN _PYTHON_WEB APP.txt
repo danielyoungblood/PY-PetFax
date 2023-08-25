@@ -1,0 +1,4 @@
+TO RUN  PYTHON WEB APP:
+
+1) & ./scripts/activate
+2) flask run --reload

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" type="text/css" href="../../static/style.css" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pet</title>
+</head>
+
+<body>
+    <h1>welcome to PetFex</h1>
+   <label style="font-weight: bold;">pet_name:</label>
+         {{pet.pet_name}}
+          <br> <br>
+    <label style="font-weight: bold;">pet_photo: </label>
+        <img src="{{ pet.pet_photo }}" alt="Photo of pet" width="300px" height="300px" />
+        <br> <br>
+        <label style="font-weight: bold">pet_fact: </label>
+        {{pet.pet_fact}} 
+        <br> <br>
+
+</body>
+
+</html>
